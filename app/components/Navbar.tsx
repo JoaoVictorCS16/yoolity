@@ -20,7 +20,7 @@ export async function Navbar() {
         <div className="flex items-center gap-x-5">
           <ThemeToggle />
 
-          {(await isAuthenticated()) ? (
+          {/* {(await isAuthenticated()) ? (
             <LogoutLink>
               <Button>Log out</Button>
             </LogoutLink>
@@ -33,7 +33,7 @@ export async function Navbar() {
                 <Button variant="secondary">Cadastrar</Button>
               </RegisterLink>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </nav>
