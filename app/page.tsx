@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
+import DashFresh from "./components/dashFresh";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
                 Classifique suas notas facilmente
               </span>
             </span>
+            <DashFresh />
 
             <h1 className="mt-8 text-3xl font-extrabold tracking-tight lg:text-6xl">
               Criar notas com facilidade
@@ -31,6 +33,7 @@ export default function Home() {
               </Button>
             </RegisterLink>
           </div>
+          <div></div>
         </div>
       </div>
     </section>
